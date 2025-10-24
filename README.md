@@ -16,3 +16,8 @@ The Key points to force content to scroll are:
 
 - We also have to set `overflow: auto;` for the host elements (`components`).
 - always wrap the `router-outlets` with a div and set `overflow: auto;` for that div.
+
+
+## points to consider:
+- `display: flex;` causes the elements to fit, and they won't grow
+
