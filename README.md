@@ -21,4 +21,4 @@ The Key points to force content to scroll are:
 ## points to consider:
 - `display: flex;` causes the elements to fit, and they won't grow
 - setting margins without paddings, reveals the parent (not sure why, 'yet')
-
+- user `:host` css selector for updating the component style
