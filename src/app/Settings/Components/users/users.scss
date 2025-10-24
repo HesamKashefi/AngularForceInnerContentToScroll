@@ -1,0 +1,25 @@
+// I think! (with doubt)
+// this is not necessary
+// cause this one sits next to router-outlet
+// and we've already wrapped them both with scrollabe div
+:host {
+    // host element must be scrollable
+    overflow-y: auto;
+}
+
+
+section {
+    background-color: yellow;
+    height: 100%;
+    // padding: 2rem;
+
+
+    // root element must be scrollable
+    overflow-y: auto;
+
+    div {
+        margin: 2rem;
+        height: 10rem;
+        background-color: orange;
+    }
+}

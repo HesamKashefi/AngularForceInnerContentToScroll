@@ -1,0 +1,17 @@
+section {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+    background-color: gray;
+
+
+    // root element must be scrollable
+    // (eventhough it won't show it, cause we force children to be scrollable too)
+    overflow-y: auto;
+
+
+    * {
+        overflow-y: auto;
+    }
+}
