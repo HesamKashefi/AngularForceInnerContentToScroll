@@ -12,6 +12,10 @@ The Key points to force content to scroll are:
 - if an element like body contains two parts (fixed size and growing part), set `overflow: auto;` for growing part
 - any element that comes inside that growing part must have `overflow: auto;`
 
+```
+Note: If all the children of the growing part, have overflow: auto;, then we can set overflow: hidden; for the growing part itself and would have the same result.
+```
+
 ## `In Angular`
 
 - We also have to set `overflow: auto;` for the host elements (`components`).
